@@ -37,6 +37,16 @@ body {
   margin-left: 1rem;
 }
 
+.header__top {
+  align-items: center;
+  display: flex;
+  gap: 5rem;
+}
+
+.header__hamburger{
+  margin-top: -2rem;
+}
+
 .menu {
   display: none;
 }
@@ -392,6 +402,10 @@ body {
     font-family: $font-main, Arial, Helvetica, sans-serif;
     font-weight: 700;
     margin: 0;
+  }
+
+  .header__hamburger {
+    display: none;
   }
 
   .header__title br {
