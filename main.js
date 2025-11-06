@@ -1,5 +1,4 @@
 const hamburger = document.querySelector(".header__hamburger");
-const menu = document.querySelector(".header__menu");
 const closeButton = document.querySelector(".header__close");
 
 hamburger.addEventListener("click", ()=>menuPopUp());
